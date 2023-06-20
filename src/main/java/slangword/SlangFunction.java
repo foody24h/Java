@@ -22,13 +22,13 @@ public class SlangFunction {
     public SlangFunction(){
         slangWordDAO = new SlangWordDAO();
         slangWords = slangWordDAO.read();
-        System.out.println("here");
+        System.out.println("Xin Chao");
         Set<String> keySet = slangWords.keySet();
-        System.out.println("Loading slang word list" );
+        System.out.println("Load slang word list" );
         for (String key : keySet) {
             System.out.println(key + " " + slangWords.get(key));
         }
-        System.out.println("End loading  slang word list");
+        System.out.println("End load slang word list");
     }
     
     public HashMap<String, ArrayList<String>> getSlangWordList(){
