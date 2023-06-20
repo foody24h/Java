@@ -31,7 +31,7 @@ class NewClass implements ActionListener
 			if (str.equals("button2"))
 			{
 				//......................
-				System.out.println("Process for button2");
+				System.out.println("Proces for button2");
 			}
 	}
 }
@@ -83,7 +83,7 @@ public class Beeper2 extends JPanel
         JFrame.setDefaultLookAndFeelDecorated(true);
 
         //Create and set up the window.
-        JFrame frame = new JFrame("Beeper");
+        JFrame frame = new JFrame("Beepe\r");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //Create and set up the content pane.
