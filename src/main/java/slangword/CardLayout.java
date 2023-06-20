@@ -606,10 +606,10 @@ public class CardLayout implements ItemListener, ActionListener {
         constraints.anchor = GridBagConstraints.NORTH;
         constraints.insets = new Insets(10, 10, 10, 10);
 
-        JLabel editLabelSlang = new JLabel("Click reset button if you want restore slang dictionary");
+        JLabel editLabelSlang = new JLabel("Kich reset button if you want restore slang dictionary");
       
         JButton resetButton = new JButton("Reset");
-        resetButton.setActionCommand("resetButton");
+        resetButton.setActionCommand("resetbutton");
         resetButton.addActionListener(this);
 
         // add components to the panel
