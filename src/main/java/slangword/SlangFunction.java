@@ -28,7 +28,7 @@ public class SlangFunction {
         for (String key : keySet) {
             System.out.println(key + " " + slangWords.get(key));
         }
-        System.out.println("End load slang word list");
+        System.out.println("End load slang word lis");
     }
     
     public HashMap<String, ArrayList<String>> getSlangWordList(){

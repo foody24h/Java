@@ -959,7 +959,7 @@ public class CardLayout implements ItemListener, ActionListener {
         quiz2QuestionLayout.add(new JLabel(quizSring));
         
         JButton quiz1AButton = new JButton("Choose");
-        quiz1AButton.setActionCommand("quiz2AButton");
+        quiz1AButton.setActionCommand("quiz2AButon");
         quiz1AButton.addActionListener(this);
         
         GridBagConstraints constraints = new GridBagConstraints();
