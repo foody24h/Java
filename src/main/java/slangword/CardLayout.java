@@ -585,7 +585,7 @@ public class CardLayout implements ItemListener, ActionListener {
     
     public void deleteSlang(){
          String deleteSlang = deleteSlangTextField.getText();
-         System.out.println("delete  slang: " + deleteSlang);
+         System.out.println("delete  slang word: " + deleteSlang);
         if (slangWordList.keySet().contains(deleteSlang.trim())) {
             int dialogResult = JOptionPane.showConfirmDialog (null, "Are you sure delete this word?","Warning",JOptionPane.YES_NO_OPTION);
             if(dialogResult == JOptionPane.YES_OPTION){
