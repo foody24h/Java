@@ -797,7 +797,7 @@ public class CardLayout implements ItemListener, ActionListener {
          
         quiz1QuestionLayout.add(new JLabel(quizSring));
         
-        JButton quiz1AButton = new JButton("Choose");
+        JButton quiz1AButton = new JButton("Chose");
         quiz1AButton.setActionCommand("quiz1AButton");
         quiz1AButton.addActionListener(this);
         
